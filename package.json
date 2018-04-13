@@ -9,9 +9,7 @@
   "scripts": {
     "test": "nyc mocha src/__tests__",
     "build-debug": "browserify src/hot-keys-engine.js -d --s HotKeys > dist/hot-keys-engine.js",
-    "build-min": "browserify src/hot-keys-engine.js --s HotKeys | uglifyjs -c > dist/hot-keys-engine.min.js",
-    "build": "npm run build-debug && npm run build-min",
-    "watch": "watchify src/hot-keys-engine.js -d --s HotKeys -o dist/hot-keys-engine.min.js -v",
+    "build": "npm run build-debug",
     "deploy": "npm run build && npm publish"
   },
   "repository": {

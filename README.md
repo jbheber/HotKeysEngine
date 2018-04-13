@@ -13,6 +13,9 @@ The format of a hot key json must be:
   "callback": function () {
       //your code
   }
+  "params": {
+    //parameters that your function will receive
+  }
 }
 ```
 ```javascript
@@ -21,8 +24,12 @@ HotKeys.attach([
 ], this);
 ```
 To remove a custom hot key
-```javascript
+````javascript
 HotKeys.detach([
   //hot key jsons
 ], this);
-```
+````
+To add the plugin key listener
+````javascript
+HotKeys.addKeyListener()
+````
