@@ -3,6 +3,7 @@ $(function () {
         baseKeyEvents.attach,
         baseKeyEvents.detach
     ], this);
+    HotKeys.addKeyListener();
 });
 
 baseKeyEvents = {
