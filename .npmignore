@@ -68,3 +68,4 @@ typings/
 .vscode
 .test
 src/__tests__
+demo/
