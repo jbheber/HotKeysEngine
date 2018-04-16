@@ -33,3 +33,7 @@ To add the plugin key listener
 ````javascript
 HotKeys.addKeyListener()
 ````
+## Installation
+````bash
+npm i hotkeysengine
+````
