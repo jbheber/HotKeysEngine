@@ -69,3 +69,4 @@ typings/
 .test
 src/__tests__
 demo/
+node_modules/
